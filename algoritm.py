@@ -22,9 +22,9 @@ bSort(array)                 # 3 4 5 6 3 2 4 6 7 8
 def sel_sort(row):
     n = len(row)
     for i in range(n-1):
-        m = i
-        for j in range(i+1, n ):  #j 1
-            if row[j] < row[m]: ###  6 < 2
+        m = irange(i+1, n ):  #j 1
+            if r
+        for j in ow[j] < row[m]: ###  6 < 2
                 m = j
         temp =row[i]
         row[i] = row[m] # m 1
